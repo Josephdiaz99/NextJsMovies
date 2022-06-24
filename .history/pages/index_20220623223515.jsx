@@ -15,9 +15,9 @@ export default function Home({movies}) {
       </Head>
 
       <main className='container' >
-        <h1 className='text-center' >Movies</h1>
+        <h1>Movies</h1>
         <Link href="/new" >
-        <a className="btn btn-primary w-100 mb-2">Agregar</a>
+        <a className="btn btn-primary">Agregar</a>
         </Link>
          {
           movies.map(({_id,title,plot})=>(
