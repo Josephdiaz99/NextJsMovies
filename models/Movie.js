@@ -2,11 +2,11 @@ import mongoose from "mongoose";
 
 const MovieSchema=new mongoose.Schema({
     title:{
-        type:String,
+        type:string,
         required:[true, "Por favor ingrese el titulo"]
     },
     plot:{
-        type:String,
+        type:string,
         required:[true, "Por favor ingrese la descripcion"]
     }
 })
