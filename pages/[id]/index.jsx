@@ -62,7 +62,7 @@ export async function getServerSideProps({params}){
         }
 
         movie._id=`${movie._id} `
-        console.log(movie)
+  
         
         return {props:{success:true,movie} }
     } catch (error) {
