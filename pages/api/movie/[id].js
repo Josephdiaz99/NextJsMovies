@@ -4,10 +4,6 @@ import Movie from "../../../models/Movie";
 export default async function handler(req, res) {
   await conectarDB();
 
-  // GET api/movie/:id (obtener un id y listarlo)
-  // DELETE api/movie/:id (elimina un doc con id)
-  // PUT api/movie/:id (modificar un doc con id)
-
   const {
     method,
     query: { id },
